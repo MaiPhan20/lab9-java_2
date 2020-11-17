@@ -5,11 +5,11 @@ import java.util.*;
 import java.util.Scanner;
 
 import Models.User;
-import eBookShop.Models.*;
+
 
 public class RegisterController {
     List<User> userlist = new ArrayList<>();
-    String url = "jdbc:mysql://192.168.64.3:3306/ebookstore";
+    String url = "jdbc:mysql://localhost:3306/ebookstore";
     String username = "root";
     String password = "";
 

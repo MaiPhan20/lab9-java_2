@@ -20,7 +20,7 @@ public class CartView {
     Scanner scanner = new Scanner(System.in);
     BookShop bookShop = new BookShop();
 
-    String url = "jdbc:mysql://3306/ebookstore";
+    String url = "jdbc:mysql://localhost:3306/ebookstore";
     String username = "root";
     String password = "";
 

@@ -4,14 +4,13 @@ import Models.Book;
 import Models.Cart;
 import Models.Order;
 import Models.User;
-import eBookShop.Models.*;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 public class BookController {
-    String url = "jdbc:mysql://192.168.64.3:3306/ebookstore";
+    String url = "jdbc:mysql://localhost:3306/ebookstore";
     String username = "root";
     String password = "";
 

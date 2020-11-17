@@ -4,11 +4,10 @@ import java.util.*;
 import java.sql.*;
 
 import Models.Customer;
-import eBookShop.Models.*;
 
 
 public class CustomerController {
-    String url = "jdbc:mysql://3306/ebookstore";
+    String url = "jdbc:mysql://localhost:3306/ebookstore";
     String username = "root";
     String password = "";
 
